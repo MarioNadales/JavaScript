@@ -1,0 +1,112 @@
+/*
+---00 WHITESPACE SYSTEM / ATOM
+
+    - Spaging system (px)
+      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+---01 TYPOGRAPHY SYSTEM / ATOM
+    
+
+    - Font sizes (px)
+    10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/****************************************/
+/* HEADER */
+/****************************************/
+
+/****************************************/
+/* NAVIGATION */
+/****************************************/
+
+/****************************************/
+/* HERO SECTION*/
+/****************************************/
+
+/****************************************/
+/* AS FEATURED IN SECTION */
+/****************************************/
+
+/****************************************/
+/* HOW IT WORKS SECTION*/
+/****************************************/
+
+/****************************************/
+/* MEALS SECTION*/
+/****************************************/
+
+/****************************************/
+/* TESTIMONIALS SECTION*/
+/****************************************/
+
+/****************************************/
+/* PRICING SECTION*/
+/****************************************/
+
+/****************************************/
+/* PLAN DETAILS SUBSECTION*/
+/****************************************/
+
+/****************************************/
+/* FEATURE SUBSECTION*/
+/****************************************/
+
+/****************************************/
+/* CTA SECTION*/
+/****************************************/
+
+/****************************************/
+/* FOOTER SECTION */
+/****************************************/
+
+.footer {
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+}
+.title--ofertas {
+    font-family: "Lato", sans-serif;
+    font-weight:700 ;
+    font-size: 24px;
+  }
+
+.ofertas {
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+}
+
+.precio--ofertas {
+    font-size: 16px;
+}
+
+
+.nombre--ofertas {
+    font-size: 16px;
+}
+
+ .QYA--title {
+    font-family: "Lato", sans-serif;
+    font-weight:700 ;
+    margin-bottom: 24px;
+    margin-top: 12px;
+    margin-left:64px;
+} 
+
+ .contactanos--title {
+    font-family: "Lato", sans-serif;
+    font-weight:700 ;
+    margin-bottom: 12px;
+    margin-right:32px;
+    margin-top: 12px;
+} 
+ 
+.pregunta {
+    padding-left: 12px;
+    margin: 14px;
+    
+} 
+
+ .contactos--content {
+    margin-bottom: 16px;
+    margin-right: 32px;
+}  
+
