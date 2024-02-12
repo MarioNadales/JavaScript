@@ -152,24 +152,25 @@
 
 
 .recomendados--carrusel {
-  width: 50%;
+  width: 44%;
+  
   max-width: 100em;
   background-color: lightblue;
   display: flex;
+  
   padding: 2em;
   overflow: hidden;
   border-radius: 15px;
   margin: 15px;
 }
 .recomendados--carrusel .completo {
-  width: calc(200% + (12 * 32px));
   padding: 2em;
-  
+
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row nowrap;  
   
   gap: 32px;
-
+  
   transition: all 1s ease;
   
 }
@@ -177,31 +178,52 @@
 .recomendados--carrusel .img {
   width: calc( 100% / 2);
   background-color: lime;
-  transform: translateX(-255%);
-  
+  transform: translateX(-15em);
+  border-radius: 10px;
+  position: relative;
+  display: inline-block;
 }
 
 .carrusel--categorias {
-  width: 100%;
-  margin: 1em 0 0 ;
   padding: .4em;
-  transform: translateY(-25%);
+  transform: translateY(82%);
+  margin-top: 24px;
   
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  
 }
 
-.categoria {
+.imagenes {
+  display: flex; 
+  position: relative;
   
-  width: 2em;
-  height: 2em;
+}
+
+
+.etiqueta{
+
+  position: absolute;
+  transform: translate(-120%, -20%); 
+  color: white; 
+  padding: 4px;
+  font-size: 24px;
+  z-index: 1;
+  background-color: red;
+
+}
+
+
+.categoria {
   margin: 1em 1em 0;
+  font-size: 32px;
+  transform: translate(-6em , -15px);
+  color: #FF8800;
 }
 
 .categoria.activo {
   text-decoration: underline;
-  
+  color: red;
 } 
 
 /* -------------------------------Categoria SAMSUNG------------------- */
