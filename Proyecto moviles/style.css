@@ -1,13 +1,10 @@
+/* --------------------------- Body ------------------------------------ */
+
 * {
   margin: 0;
   padding: 0;
 }
-/* --------------------------- Body ------------------------------------ */
-.body {
-  font-family: "Karla", sans-serif;
-  color: #323232;
-  line-height: 1;
-}
+
 /* --------------------------- Header ------------------------------------ */
 .header {
   padding: 0 3rem; 
@@ -16,7 +13,6 @@
   align-items: center;
   position: sticky;
   top: 0; 
-  background-color: #FFFFFF; 
   z-index: 1000;
 }
 
@@ -26,9 +22,9 @@
 }
 
 .busqueda input {
-  width: 200px; 
-  height: 40px; 
-  padding-left: 40px; 
+  width: 12.5rem; 
+  height: 2.5rem; 
+  padding-left: 2.5rem; 
   transform: translateX(-4%);
 }
 
@@ -54,118 +50,117 @@
 
 
 .logo {
-  width: 120px;
-  margin-top: 20px;
+  width: 7.5rem;
+  margin-top: 1.25rem;
   
 }
 
 .nav_menu{
-  width: 50px;
-  margin-left: 30px;
+  width: 3.125rem;
+  margin-left: 1.875rem;
   cursor: pointer;
 
 }
 
 .nav_busqueda{
-  width: 25px;
+  width: 1.5625rem;
 }
 
 .carrito {
-  width: 40px;
+  width: 2.5rem;
+  cursor: pointer;
 }
 
 .user {
-  width: 50px;
-  margin-right: 30px;
+  width: 3.125rem;
+  margin-right: 1.875rem;
 }
+
+
+
 /* --------------------------- Oferta ------------------------------------ */
 .ofertas {
 
-  background-color: #FF8800;
-  border-radius: 15px;
-  padding: 28px;
-  margin-top: 20px;
-  margin-bottom: 28px;
-  margin-left: 48px;
-  margin-right:48px ;
+  border-radius: 0.9375rem;
+  padding: 1.75rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.75rem;
+  margin-left: 3rem;
+  margin-right:3rem ;
 
   display: grid;
-  grid-template-columns: 3;
-  grid-template-rows: 2;
-  filter: drop-shadow(4px 4px rgb(67, 66, 66));
+  filter: drop-shadow(4px 4px rgb(67, 66, 66, 0.5));
   
 }
 .title--ofertas {
   grid-column: 1;
-  margin-left: 78px;
+  margin-left: 4.875rem;
 }
 .texto--ofertas {
   grid-column: 1;
-  margin-top: 80px;
-  margin-left:38px;
+  margin-top: 5rem;
+  margin-left:2.375rem;
   line-height: 1.2;
 }
+
+.card--ofertas {
+  grid-column: 3;
+  padding-bottom: 0.75rem;
+  padding-top: 0.875rem;
+  
+  transform: translateY(-5%); 
+  border-radius: 0.9375rem;
+  position: relative;
+  
+}
+
 .imagen--ofertas {
-  padding-left:132px ;
-  width: 250px;
-  height: 200px;
+  padding-left:8.25rem ;
+  width: 15.625rem;
+  height: 12.5rem;
+  transform: translateX(10%);
 }
 
 .nombre--ofertas {
-  padding-left: 120px;
-  margin-left: 100px;
+  padding-left: 7.5rem;
+  margin-left: 6.25rem;
+  transform: translateX(10%);
 }
 .precio--ofertas {
-  padding-left: 120px;
+  padding-left: 7.5rem;
   grid-column: 3;
-  margin-top: 12px;
-  margin-left: 85px;
-  
+  margin-top: 0.75rem;
+  margin-left: 5.3125rem;
+  transform: translateX(10%);
 
 }
+
 .precioAntiguo--ofertas {
-  color: red;
-  margin-right: 12px;
-  text-decoration: line-through;
-}
-.card--ofertas {
-  grid-column: 3;
-  background-color: #B0E8FF;
-  padding-bottom: 12px;
-  padding-top: 14px;
-  
-  transform: translateY(-5%); 
-  border-radius: 15px;
-  position: relative;
-  
+  margin-right: 0.75rem;
+  transform: translateX(10%);
 }
 
 .etiqueta {
   width: 15%;
   padding: 4px;
-  background-color: #008774;
-  color: white;
   position: absolute;
   right: 0;
   z-index: 1;
-  margin-top: 12px;
-  transform: rotate(40deg);
-  font-size: 15px;
+  margin-top: 0.75rem;
+  transform: rotate(38deg);
   overflow: auto;
-  
   text-align: center;
   border-radius: 5px;
+
 }
 
 
 /* -------------------------- Recomendados para ti ------------------- */
 
-/* Estilos para dispositivos más grandes */
 .recomendados {
   position: relative;
-  background-color: rgba(255, 136, 0, 0.6);
   overflow: hidden;
-  padding-bottom: 24px;
+  padding-bottom: 1.5rem;
 }
 
 .titulo-y-texto {
@@ -176,27 +171,23 @@
 }
 
 .title--recomendados{
-  margin-left: 78px;
+  margin-left: 4.875rem;
   display: inline-block;
   transform: translateY(150%);
 }
 
 .text--recomendados{
-  margin-left: 38px;
+  margin-left: 2.375rem;
   text-align: center;
   transform: translateY(8em);
 }
-
-
-
-
 
 .container{
   transform: translateX(40%);
   width: 90%;
   
   overflow: hidden;
-  /* padding-right: 32px; */
+
 }
 .container .swiper-container{
   height: 50%;
@@ -205,10 +196,8 @@
 }
 .container .swiper-slide {
   text-align: center;
-  font-size: 18px;
-  padding-top: 24px;
-  background: #B0E8FF;
-  border-radius: 15px;
+  padding-top: 1.5rem;
+  border-radius: 0.9375rem;
   text-align: start;
   box-shadow: 0px 4px 4px rgba(196, 196, 196, 0.25);
 
@@ -218,7 +207,7 @@
   display: block;
   width: 50%;
   height: 50%;
-  border-radius: 12px;
+  border-radius: 0.75rem;
 }
 .swiper-slide {
   overflow: hidden;
@@ -229,20 +218,18 @@
     padding:1rem 1rem;
 }
 .container .swiper-slide .card-title,.container .swiper-slide .card-text{
-   margin-bottom: .5rem;
+   margin-bottom: 0.5rem;
    text-align: center;
 }
 .container .swiper-slide .card-link{
    text-align: center;
-    background-color: rgb(238, 149, 47);
-    border-radius: 12px;
-    padding:12px ;
+    border-radius: 0.75rem;
+    padding:0.75rem ;
+    cursor: pointer;
 }
 .container .swiper-slide .card-link a{
     text-decoration: none;
-    color: #1d6ce2;
 }
-
 
 
 /* -------------------------------Categoria IPHONE------------------- */
@@ -253,9 +240,8 @@
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
-  background-color: #B0E8FF;
-  margin-top: 15px;
-  padding: 20px;
+  margin-top: 0.9375rem;
+  padding: 1.25rem;
 }
 
 .contenidoRecomendadosIphone {
@@ -264,25 +250,18 @@
   align-items: center;
   width: 80%;
   margin: 0 auto;
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 
 
 .title--iphone {
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
-
-.title--iphone h2 {
-  font-size: 2em;
-  font-weight: bold;
-}
-
 
 .text--iphone p {
   text-align: center;
-  font-size: 1em;
 }
 
 
@@ -291,7 +270,7 @@
   flex-wrap: wrap;
   justify-content: space-around;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .categoriaIphone {
@@ -299,39 +278,20 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin: 10px;
-  padding: 10px;
+  margin: 0.625rem;
+  padding: 0.625rem;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
-  background-color: rgb(238, 149, 47);
 }
 
 .categoriaIphone span {
-  font-size: 1.2em;
-  font-weight: bold;
   margin-bottom: 5px;
 }
 
 .categoriaIphone img {
-  width: 200px;
-  height: 200px;
+  width: 12.5rem;
+  height: 12.5rem;
 }
-
-/* @media screen and (max-width: 768px) {
-  .recomendados--categoriasIphone {
-    flex-direction: column;
-  }
-
-  .categoriaIphone {
-    width: 80%;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .categoriaIphone {
-    width: 100%;
-  }
-} */
 
 
 /* ------------------------------- Categoria SAMSUNG------------------ */
@@ -341,9 +301,8 @@
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
-  background-color:rgba(255, 136, 0, 0.6);
-  margin-top: 20px;
-  padding: 20px;
+  margin-top: 1.25rem;
+  padding: 1.25rem;
 }
 
 .contenidoRecomendadosSamsung {
@@ -352,34 +311,20 @@
   align-items: center;
   width: 80%;
   margin: 0 auto;
-  padding: 20px;
+  padding: 1.25rem;
 }
-
-
 
 .title--Samsung {
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
-
-.title--Samsung h2 {
-  font-size: 2em;
-  font-weight: bold;
-}
-
-
-.text--iphone p {
-  text-align: center;
-  font-size: 1em;
-}
-
 
 .recomendados--categoriasSamsung {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .categoriaSamsung {
@@ -387,17 +332,14 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin: 10px;
-  padding: 10px;
+  margin: 0.625rem;
+  padding: 0.625rem;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
-  width: 200px;
-  background-color: #B0E8FF;
+  width: 12.5rem;
 }
 
 .categoriaSamsung span {
-  font-size: 1.2em;
-  font-weight: bold;
   margin-bottom: 5px;
 }
 
@@ -406,14 +348,14 @@
   height: auto;
 }
 
-/* ------------------------------- Categrias --------------------------*/
+/* ------------------------------------------------------- CATEGORIAS ------------------------------------------------- */
 
 .Categorias {
   text-align: center;
 }
 
 .titulo {
-  margin-top: 20px; 
+  margin-top: 1.25rem; 
 }
 
 .logos-arriba,
@@ -424,9 +366,10 @@
 
 .logos-arriba img,
 .logos-abajo img {
-  margin: 30px;
-  width: 150px; 
+  margin: 1.875rem;
+  width: 9.375rem; 
 }
+
 
 
 /* ------------------------------------------------------- FOOTER ------------------------------------------------- */
@@ -434,14 +377,18 @@
   list-style: none;
   display: flex;
   justify-content: space-between;
-  background-color: #FFDAB0; 
-  padding: 20px; 
+  padding: 1.25rem; 
 }
+
+.QYA--title {
+  margin-bottom: 1.5rem;
+  margin-top: 0.75rem;
+  margin-left:4rem;
+} 
 
 .QYA, .contactos, .logo-footer {
   flex: 1;
-  background-color: #B0E8FF; 
-  padding: 10px;
+  padding: 0.625rem;
 }
 
 .QYA {
@@ -455,9 +402,9 @@
 }
 
 .logo-footer img {
-  width: 100px;
-  margin-top: 30px;
-  margin-left: 150px;
+  width: 6.25rem;
+  margin-top: 1.875rem;
+  margin-left: 9.375rem;
 }
 
 .contactos * {
@@ -467,18 +414,18 @@
 .contacto_icon {
   display: block; 
   width: 100%; 
-  margin-top: 10px;
+  margin-top: 0.625rem;
   text-align: right;
 }
 
 .contacto_item {
-  margin-top: 10px;
+  margin-top: 0.625rem;
   display: flex;
 }
 
 .contacto_item img {
-  width: 24px; 
-  margin-right: 10px;  
+  width: 1.5rem; 
+  margin-right: 0.625rem;  
 }
 
 .contacto_icon p {
@@ -487,42 +434,52 @@
   text-align: right;
 }
 
-/* Modal de login */
+.contactanos--title {
+  margin-bottom: 0.75rem;
+  margin-right: 2rem;
+  margin-top: 0.75rem;
+}
+
+.pregunta {
+  padding-left: 0.75rem;
+  margin: 0.875rem;
+  
+} 
+
+.contactos--content {
+  margin-bottom: 1rem;
+  margin-right: 2rem;
+}  
+
+
+/* ------------------------------------------------------- MODAL LOGIN ------------------------------------------------- */
 
 .modal {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 40rem; /* Reduciendo el max-width */
-  background-color: #B0E4DD;
-  padding: 3rem 4rem; /* Reduciendo el padding */
-  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.3); /* Reduciendo el tamaño de la sombra */
+  max-width: 40rem; 
+  padding: 3rem 4rem; 
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.3); 
   z-index: 1000;
   transition: all 0.5s;
 }
 
 .modal__header {
-  font-size: 2.5rem; /* Reduciendo el tamaño del texto */
-  margin-bottom: 3rem; /* Reduciendo el espacio debajo del encabezado */
+  margin-bottom: 3rem; 
   line-height: 1.5;
 }
 
 .modal__form {
-  margin: 0 1.5rem; /* Reduciendo el margen interior */
+  margin: 0 1.5rem; 
   display: grid;
   grid-template-columns: 1fr 2fr;
   align-items: center;
-  gap: 1.5rem; /* Reduciendo el espacio entre los elementos del formulario */
-}
-
-.modal__form label {
-  font-size: 1.5rem; /* Reduciendo el tamaño del texto de las etiquetas */
-  font-weight: 500;
+  gap: 1.5rem; 
 }
 
 .modal__form input {
-  font-size: 1.5rem; /* Reduciendo el tamaño del texto de los inputs */
   padding: 1rem 1.5rem;
   border: 1px solid #ddd;
   border-radius: 0.5rem;
@@ -535,30 +492,20 @@
 }
 
 .btn--close-modal {
-  font-family: inherit;
-  color: inherit;
   position: absolute;
   top: 0.5rem;
-  right: 1.5rem; /* Ajustando la posición del botón de cerrar */
-  font-size: 3rem; /* Reduciendo el tamaño del botón de cerrar */
+  right: 1.5rem; 
   cursor: pointer;
   border: none;
   background: none;
 }
 
 .btn-login {
-  font-size: 1.8rem; 
   padding: 1.2rem 2rem; 
   border: none;
   border-radius: 0.5rem;
-  background-color: #007bff; 
-  color: #fff; 
   cursor: pointer;
   transition: background-color 0.3s ease; 
-}
-
-.btn-login:hover {
-  background-color: #0056b3; 
 }
 
 .hidden {
@@ -566,21 +513,21 @@
   opacity: 0;
 }
 
+/* ------------------------------------------------------- MODAL MENU HAMBURGUESA ------------------------------------------------- */
+
 .modal-menu {
   position: fixed;
   top: 0;
   left: 0;
-  width: 30%; /* Ajusta el ancho según sea necesario */
+  width: 30%; 
   height: 100%;
-  background-color: #B0E4DD;
-  padding: 3rem 2rem; /* Ajusta el padding según sea necesario */
+  padding: 3rem 2rem; 
   box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.3);
   z-index: 1000;
-  transition: transform 0.5s ease; /* Agregamos una transición para el efecto de desplazamiento */
+  transition: transform 0.5s ease; 
 }
 
 .modal-menu__header {
-  font-size: 2.5rem;
   margin-bottom: 3rem;
   line-height: 1.5;
 }
@@ -593,7 +540,6 @@
   position: absolute;
   top: 0.5rem;
   right: 1.5rem;
-  font-size: 3rem;
   cursor: pointer;
   border: none;
   background: none;
@@ -607,37 +553,33 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 999;
-  display: none; /* Por defecto, el overlay está oculto */
+  display: none; 
 }
 
 .overlay-menu.active {
-  display: block; /* Mostrar el overlay cuando la clase "active" está presente */
+  display: block; 
 }
 
 .ul {
   padding: 0;
   margin: 0;
-  list-style-type: none; /* Quita los puntos de la lista */
-  display: flex; /* Hace que los elementos de la lista se muestren en línea */
-  flex-direction: column; /* Alinear los elementos verticalmente */
-  align-items: center; /* Centra verticalmente los elementos */
+  list-style-type: none; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
 }
 
 .clickLista {
   cursor: pointer;
-  padding: 1.5rem 0; /* Incrementamos el espacio entre cada elemento */
-  font-size: 2rem; /* Aumentamos el tamaño del texto */
+  padding: 1.5rem 0; 
   transition: color 0.3s ease;
-  display: flex; /* Hace que los elementos de la lista se muestren en línea */
-  align-items: center; /* Centra verticalmente los elementos */
-}
-
-.clickLista:hover {
-  color: #008774; /* Cambia el color al pasar el ratón */
+  display: flex;  
+  align-items: center; 
 }
 
 .clickLista::before {
-  content: "•"; /* Agrega un punto antes de cada elemento de la lista */
-  margin-right: 1rem; /* Espacio entre el punto y el texto */
+  content: "•"; 
+  margin-right: 1rem; 
 }
+
 

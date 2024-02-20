@@ -1,0 +1,168 @@
+/* OFERTAS */
+@media only screen and (max-width: 768px) {
+  .ofertas {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .title--ofertas {
+    margin-left: 1.5rem;
+  }
+
+  .texto--ofertas {
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .imagen--ofertas {
+    padding-left: 0;
+    width: 100%;
+    height: auto;
+    transform: translateX(-1%);
+  }
+
+  .nombre--ofertas {
+    padding-left: 1rem;
+    margin-left: 0;
+    transform: translateX(32%);
+  }
+
+  .precio--ofertas {
+    padding-left: 1rem;
+    grid-column: 1;
+    margin-top: 0.75rem;
+    margin-left: 0;
+    text-align: center;
+    transform: translateX(-5%);
+  }
+
+  .precioAntiguo--ofertas {
+    margin-right: 0;
+  }
+
+  .card--ofertas {
+    grid-column: 1;
+    padding-bottom: 0.75rem;
+    padding-top: 0.875rem;
+    transform: translateY(0);
+    position: relative;
+  }
+
+  .etiqueta {
+    width: auto;
+    padding: 4px;
+    position: static;
+    margin-top: 0.75rem;
+    transform: rotate(0);
+    text-align: center;
+    border-radius: 5px;
+  }
+}
+
+/* Recomendados */
+
+@media only screen and (max-width: 768px) {
+  .title--recomendados {
+    margin-left: 3rem; 
+  }
+  
+  .container {
+    margin-top: 4rem;
+    transform: translateX(12%); 
+    width: 80%; 
+    
+  }
+  
+  .container .swiper-container {
+    height: 60%; 
+    width: 100%; 
+  }
+  .container .swiper-slide img {
+    width: 70%; 
+    height: auto; 
+    transform: translateX(25%); 
+  }
+  
+.text--recomendados{
+  display: none;
+ }
+
+}
+
+/* FOOTER */
+@media only screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column; 
+    align-items: center; 
+    padding: 0.625rem; 
+    background-color: #B0E8FF !important; 
+  }
+
+  .QYA--title {
+    margin-left: 0; 
+    text-align: center; 
+  }
+
+  .logo-footer img {
+    margin: 0; 
+  }
+
+  .contacto_icon {
+    text-align: center; 
+  }
+
+  .contactanos--title {
+    margin: 0; 
+    text-align: center; 
+    margin-top: 0.75rem; 
+  }
+
+  .pregunta, .contactos--content {
+    margin: 0.625rem; 
+  }
+}
+
+/* CATEGORIAS */
+
+@media only screen and (max-width: 768px) {
+  .titulo {
+    margin-top: 0.75rem; 
+  }
+  
+  .logos-arriba,
+  .logos-abajo {
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  .logos-arriba img,
+  .logos-abajo img {
+    margin: 0.75rem; 
+    width: 7.5rem; 
+  }
+}
+
+/* NAV */
+
+@media only screen and (max-width: 768px) {
+  .busqueda {
+    display: none;
+  }
+  .carrito {
+    display: none;
+  }
+  .user {
+    width: 3.125rem;
+    right: 0;
+  }
+
+  .nav_menu{
+    width: 3.125rem;
+    cursor: pointer;
+    left: 0;
+  }
+
+}

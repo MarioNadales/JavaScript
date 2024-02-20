@@ -1,5 +1,3 @@
-
-
 //--------Funcion para el modal del login de usuario-------
 const modal = document.querySelector('.modal');
 const overlay = document.querySelector('.overlay');
@@ -32,7 +30,6 @@ document.addEventListener('keydown', function (e) {
 
 const carritoIcon = document.getElementById('carrito_icon');
 const userIcon = document.getElementById('user_icon');
-const lupaIcon = document.getElementById('lupa_icon');
 const menuHamburguesa = document.getElementById('menu_icon');
 
 carritoIcon.addEventListener('mouseenter', () => {
@@ -59,14 +56,6 @@ userIcon.addEventListener('mouseleave', () => {
   userIcon.style.transform = 'scale(1)';
 });
 
-lupaIcon.addEventListener('mouseenter', () => {
-  busquedaInput.style.border = '2px solid blue';
-});
-
-lupaIcon.addEventListener('mouseleave', () => {
-  busquedaInput.style.border = '';
-});
-
 menuHamburguesa.addEventListener('mouseenter', () => {
   menuHamburguesa.style.transform = 'scale(1.2)';
 });
@@ -74,9 +63,6 @@ menuHamburguesa.addEventListener('mouseenter', () => {
 menuHamburguesa.addEventListener('mouseleave', () => {
   menuHamburguesa.style.transform = 'scale(1)';
 });
-
-//----------------------- Funcion para sticky del header -----------------------
-
 
 
 // ----------------------- Scroll de las categorías -----------------------
@@ -128,19 +114,9 @@ overlayMenu.addEventListener('click', closeMenu);
 
 //---funcion carrusel---
 var swiper = new Swiper('.swiper-container', {
-	navigation: {
-	  nextEl: '.swiper-button-next',
-	  prevEl: '.swiper-button-prev'
-	},
-	slidesPerView: 1,
-	spaceBetween: 10,
-	// init: false,
-	pagination: {
-	  el: '.swiper-pagination',
-	  clickable: true,
-	},
-  
+
 	breakpoints: {
+    
     620: {
         slidesPerView: 1,
         spaceBetween: 20,
